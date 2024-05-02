@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 char* getSubarray(const char* originalArray, int startIndex, int subarrayLength) {
     // Allocate memory for the subarray
     char* subarray = new char[subarrayLength + 1]; // +1 for the null terminator
